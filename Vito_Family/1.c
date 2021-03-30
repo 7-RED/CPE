@@ -28,7 +28,7 @@ int main(void)
 			for(int z=0;z<rownum;z++)
 				ans=ans+abs(si[z]-si[home]);//計算所有到老大家的距離
 
-		printf("ans=%d\n",ans);//印出答案
+		printf("%d\n",ans);//印出答案
 		ans=0;//清零
 	}
 
